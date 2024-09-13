@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lær Persisk</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f8ff;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #4682b4;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background-color: #f0f0f0;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #4682b4;
+            font-size: 18px;
+        }
+        section {
+            padding: 20px;
+            margin: 10px;
+        }
+        h2 {
+            color: #4682b4;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+        }
+        .card {
+            padding: 15px;
+            border: 1px solid #ddd;
+            background-color: white;
+            text-align: center;
+        }
+        audio {
+            margin-top: 10px;
+        }
+        footer {
+            background-color: #4682b4;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Lær Persisk med Mamma og Pappa</h1>
+        <p>En morsom måte å lære morsmålet ditt på!</p>
+    </header>
+
+    <nav>
+        <a href="#lese">Leseferdigheter</a>
+        <a href="#skrive">Skriveferdigheter</a>
+        <a href="#lytte">Lytteøvelser</a>
+        <a href="#grammatikk">Grammatikk</a>
+    </nav>
+
+    <section id="lese">
+        <h2>Leseferdigheter</h2>
+        <p>Lær hvordan du kan lese persiske ord og setninger.</p>
+        <div class="grid">
+            <div class="card">
+                <h3>Les ord</h3>
+                <p>Her er noen vanlige ord.</p>
+                <audio controls>
+                    <source src="audio/word1.mp3" type="audio/mpeg">
+                    Din nettleser støtter ikke lydavspilling.
+                </audio>
+            </div>
+            <div class="card">
+                <h3>Les setninger</h3>
+                <p>Her er noen enkle setninger.</p>
+                <audio controls>
+                    <source src="audio/sentence1.mp3" type="audio/mpeg">
+                    Din nettleser støtter ikke lydavspilling.
+                </audio>
+            </div>
+        </div>
+    </section>
+
+    <section id="skrive">
+        <h2>Skriveferdigheter</h2>
+        <p>Øv på å skrive persiske bokstaver og ord.</p>
+        <div class="grid">
+            <div class="card">
+                <h3>Øv på å skrive bokstaver</h3>
+                <p>Start med bokstaver i det persiske alfabetet.</p>
+            </div>
+            <div class="card">
+                <h3>Øv på å skrive ord</h3>
+                <p>Prøv å skrive enkle ord.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="lytte">
+        <h2>Lytteøvelser</h2>
+        <p>Hør på hvordan persiske ord og setninger uttales.</p>
+        <div class="grid">
+            <div class="card">
+                <h3>Hør på ord</h3>
+                <audio controls>
+                    <source src="audio/word1.mp3" type="audio/mpeg">
+                    Din nettleser støtter ikke lydavspilling.
+                </audio>
+            </div>
+            <div class="card">
+                <h3>Hør på setninger</h3>
+                <audio controls>
+                    <source src="audio/sentence1.mp3" type="audio/mpeg">
+                    Din nettleser støtter ikke lydavspilling.
+                </audio>
+            </div>
+        </div>
+    </section>
+
+    <section id="grammatikk">
+        <h2>Grammatikk</h2>
+        <p>Enkle regler for persisk grammatikk.</p>
+        <div class="grid">
+            <div class="card">
+                <h3>Substantiv og Verb</h3>
+                <p>Lær forskjellen mellom substantiv og verb.</p>
+            </div>
+            <div class="card">
+                <h3>Setningsstruktur</h3>
+                <p>Lær hvordan du bygger en enkel setning.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2024 Lær Persisk med Mamma og Pappa</p>
+    </footer>
+
+</body>
+</html>
